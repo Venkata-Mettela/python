@@ -1,0 +1,5 @@
+name = input("Enter your name:")
+age = int(input("Enter your age:"))
+currentYear = int(input("Enter current year:"))
+hYear = currentYear+(100-age)
+print(name, ",you will be 100 years old in", hYear)
